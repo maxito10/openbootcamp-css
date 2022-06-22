@@ -1,0 +1,22 @@
+
+
+.button{
+    background-color: rgb(221, 4, 4);
+    width: 200px;
+    height: 100px; 
+    
+}
+
+.button::after{
+    content: "pasa por aqui";
+    
+}
+
+.button:hover {
+    background-color: green;
+    width:200px;
+    height: 100px;}
+
+
+
+
