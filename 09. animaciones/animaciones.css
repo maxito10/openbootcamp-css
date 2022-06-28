@@ -1,0 +1,22 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    /*transition: transform 1s ease-in 2s ;*/
+    
+}
+
+.padre:hover .hijo{
+    transform: translateX(100%) ;
+    background-color: blueviolet;
+    transform: translateY(100%);
+    background-color: green;
+
+}

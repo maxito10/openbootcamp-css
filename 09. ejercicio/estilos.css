@@ -1,0 +1,18 @@
+.btn-modern {
+    height: 20px;
+    width: 50px;
+    border-radius: 10%;
+    background-color: blue;
+    margin-left: 1000px;
+    color: aliceblue;
+  
+   
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    background-color: aliceblue;
+    color: blue;
+    transition: 0.4ms;
+
+}
