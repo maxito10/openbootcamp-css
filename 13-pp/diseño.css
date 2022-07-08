@@ -1,0 +1,15 @@
+.contenedor{
+    background-color: yellow;
+    display: flex;
+    padding: 0.5em;
+    font-size: x-large;
+    gap: 0.5rem;
+   min-height: 5rem;
+    flex-direction: column;
+    
+}
+.elemento{
+    background-color: coral;
+    padding: 0.25rem;
+}
+
